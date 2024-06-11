@@ -9,7 +9,7 @@ export function App() {
             <div className=" bg-black">
                 <Navbar />
             </div>
-            <Routes>
+            <Routes basename="/IndiShop">
               <Route path="/" element={<Home/>}/>
               <Route path="/cart" element={<Cart/>}/>
             </Routes>
